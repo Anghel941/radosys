@@ -8,6 +8,7 @@
     <link rel="icon" type="image/jpg" href="img/Radosis.png">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a5779a9abc.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -16,10 +17,9 @@
         <nav>
             <section class="contenedor nav">
                 <div class="logo">
-                    <img src="img/Logo_radosis.png" alt="">
+                    <a href="index.html"><img src="img/Logo_radosis.png" alt="" ></a> 
                 </div>
                 <ul class="menu"> 
-                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="productos.html">Productos</a></li>
@@ -36,34 +36,53 @@
   <!-- Cursos -->
 
 
-        <section class="servicios">
+        <section class="cursos">
             <div class="contenedor1">
                 <h2>Nuestros cursos</h2>
-                <div class="contenedor-servicios">
-                    <div class="servicio">
-                        <i class="fas fa-x-ray"></i>
+                <div class="contenedor-cursos">
+                    <div class="curso" data-aos="fade-right" data-aos-duration="2000">
                         <h3> RADOSYS EDUCACIÓN Y CAPACITACIÓN</h3>
+                        <center>
+                            <img src="img/curso1.png" class="imagen-curso" alt="">
+                        </center>
                         <p>Brindamos cursos de capacitación en Protección Radiológica en Radiología Dental, Diagnóstico Médico y No Médico. El certificado emitido es válido para trámite de la licencia individual de operador. No hay de qué preocuparse, porque también está incluido las gestiones ante OTAN-IPEN.</p>
-                        <a href="#">Ver..</a>
+                        <center>
+                            <a href="#" >Solicitar información</a>
+                           </center>
+                       
                     </div>
-                    <div class="servicio">
-                        <i class="fas fa-pen-fancy"></i>
+                    <div class="curso" data-aos="fade-left" data-aos-duration="2000">
                         <h3>RADOSYS ASESORÍA CLÍNICA </h3>
+                        <center>
+                            <img src="img/curso2.png" class="imagen-curso" alt="">
+                        </center>
                         <p>Asesoramos en el diseño y construcción óptima de la instalación y en la adquisición correcta del equipo radiográfica adaptada a sus necesidades. Válido para trámites de Licencia de Operación y Registro de Instalación. Diseñamos el Programa de Protección Radiológica en Diagnóstico Médico con Rayos X solicitada por OTAN-IPEN.</p>
-                        <a href="#">Ver..</a>
+                        <center>
+                            <a href="#" class="btn">Solicitar información</a>
+                           </center>
                     </div>
-                    <div class="servicio">
-                        <i class="fas fa-pen-fancy"></i>
-                        <h3>RADOSYS  CONTROL  DE  CALIDAD,  RADIOMETRÍA  E  INGENIERÍA  DE  BLINDAJES</h3>
-                        <p>Brindamos servicios tales como: control de calidad en equipos de rayos X (radiología, mamografía convencional y digital, fluoroscopía, intervencionismo, tomografía, densitómetría ósea y radiología dental) , levantamiento radiométrico y memoria del cálculo de blindaje en las instalaciones médicas requeridas en consorcio con la empresa QC DOSE SAC acreditada por la OTAN/IPEN.</p>
-                        <a href="#">Ver..</a>
+                    <div class="curso" data-aos="fade-right" data-aos-duration="2000">
+                        <h3>RADOSYS ASESORÍA CLÍNICA </h3>
+                        <center>
+                            <img src="img/curso2.png" class="imagen-curso" alt="">
+                        </center>
+                        <p>Asesoramos en el diseño y construcción óptima de la instalación y en la adquisición correcta del equipo radiográfica adaptada a sus necesidades. Válido para trámites de Licencia de Operación y Registro de Instalación. Diseñamos el Programa de Protección Radiológica en Diagnóstico Médico con Rayos X solicitada por OTAN-IPEN.</p>
+                        <center>
+                            <a href="#" class="btn">Solicitar información</a>
+                           </center>
                     </div>
-                    <div class="servicio">
-                        <i class="fas fa-pen-fancy"></i>
-                        <h3>RADOSYS  VENTAS </h3>
-                        <p>Ofrecemos calidad en equipamiento médico de rayos X, elementos de protección radiológica para el operador (mandiles, collarines, protector gonadal, guantes y lentes emplomados), caja reveladora, películas radiográficas, láminas, vidrio y biombo emplomados e insumos químicos. </p>
-                        <a href="#">Ver..</a>
+                    <div class="curso" data-aos="fade-left" data-aos-duration="2000">
+                        <h3>RADOSYS ASESORÍA CLÍNICA </h3>
+                        <center>
+                            <img src="img/curso2.png" class="imagen-curso" alt="">
+                        </center>
+                        <p>Asesoramos en el diseño y construcción óptima de la instalación y en la adquisición correcta del equipo radiográfica adaptada a sus necesidades. Válido para trámites de Licencia de Operación y Registro de Instalación. Diseñamos el Programa de Protección Radiológica en Diagnóstico Médico con Rayos X solicitada por OTAN-IPEN.</p>
+                        
+                        <center>
+                            <a href="#" class="btn">Solicitar información</a>
+                           </center>
                     </div>
+                   
                 </div> 
             </div>
         </section>
@@ -125,12 +144,15 @@
             </div>
         </section>
     </div>
-   
     <div class="footer-secundarios">
-        <p>Copyright &copy; 2021 <span>RADOSIS</span>. All Rights Reserved</p>
+        <p>Copyright &copy; 2021 <span>RADOSYS</span>. All Rights Reserved</p>
     </div>
- 
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

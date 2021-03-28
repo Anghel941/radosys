@@ -8,6 +8,7 @@
     <link rel="icon" type="image/jpg" href="img/Radosis.png">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a5779a9abc.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,10 +16,9 @@
         <nav>
             <section class="contenedor nav">
                 <div class="logo">
-                    <img src="img/Logo_radosis.png" alt="">
+                    <a href="index.html"><img src="img/Logo_radosis.png" alt="" ></a> 
                 </div>
                 <ul class="menu"> 
-                    <li><a href="index.html">Inicio</a></li>
                     <li><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="productos.html">Productos</a></li>
@@ -45,10 +45,10 @@
            
             <div class="contenedor-vision-mision">
                 <div class="contenedor">
-                <section class="contenido_header">
+                <section class="contenido_vision_mision">
                     <img src="img/mision-vision.png" alt="">
                    
-                    <section class="textos_header">
+                    <section class="textos_vision_mision">
                         <h1>Misión</h1>
                         <p>Establecer cultura de protección radiológica a través de capacitaciones con cursos teóricos – prácticos a aquellos profesionales de la salud que operan equipos de rayos X de uso médico y dental en nuestro país, permitiéndoles obtener su licencia individual exigida por la autoridad reguladora nacional (OTAN-IPEN), y asimismo proveyéndoles del equipamiento radiológico indispensable, garantizando la obtención de imágenes diagnósticas de alta calidad con bajos niveles de radiación al paciente acompañado con los implementos de seguridad radiológica.</p>
                         <h1>Visión</h1>
@@ -57,21 +57,36 @@
                 </section>
                 </div>
               </div>
-
-              <div class="contenedor">
-                <h1>Valores</h1>
-              
-                <section class="check">
-                    <h4<i class="far fa-check-circle"></i>Buscamos la excelencia en nuestros servicios.</h4>
+        </header>
+ <!--   valores -->
+        <section class="contenedor1 valores">
+            <h2 class="titulo">Valores</h2>
+            <div class="valoress">
+                <img src="img/VALORES.png" >
+                <section class="check-valores">
+                    <h4><i class="far fa-check-circle"></i>Buscamos la excelencia en nuestros servicios.</h4> 
                     <h4><i class="far fa-check-circle"></i>Trabajamos en equipo.</h4>
                     <h4><i class="far fa-check-circle"></i>Aceptamos sugerencias del cliente para el desarrollo de sus proyectos.</h4>
                     <h4><i class="far fa-check-circle"></i>Actuamos con flexibilidad e integridad para dar solución a nuestros retos, brindando seguridad y confort a nuestros clientes. </h4>
                     <h4><i class="far fa-check-circle"></i>Otorgamos garantía en los productos otorgados.</h4>
                 </section>
-            <!--    <img src="img/mision-vision.png" alt=""> -->
-              </div>
-        </header>
+            </div>
+          
+          </section>
 
+           <!-- redes-Flotantes -->
+     <div class="container-redes">
+        <input type="checkbox" name="" id="btn-check">
+        <div class="social-media-redes">
+            <a class="fab fa-facebook" href="#"></a>
+            <a class="fab fa-instagram" href="#"></a>
+            <a class="fab fa-whatsapp" href="#"></a>
+            <a class="fas fa-at" href="#"></a>
+        </div>
+        <div class="btn-check">
+            <label for="btn-check"  class="suma" alt="">+</label>
+        </div>
+     </div>
 
         <!-- Footer -->
 
@@ -118,9 +133,14 @@
     </div>
    
     <div class="footer-secundarios">
-        <p>Copyright &copy; 2021 <span>RADOSIS</span>. All Rights Reserved</p>
+        <p>Copyright &copy; 2021 <span>RADOSYS</span>. All Rights Reserved</p>
     </div>
  
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>

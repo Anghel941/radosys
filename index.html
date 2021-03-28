@@ -8,7 +8,9 @@
     <link rel="icon" type="image/jpg" href="img/Radosis.png">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a5779a9abc.js" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     
@@ -16,10 +18,9 @@
     <nav>
         <section class="contenedor nav">
             <div class="logo">
-                <img src="img/Logo_radosis.png" alt="">
+               <a href="index.html"><img src="img/Logo_radosis.png" alt="" ></a> 
             </div>
             <ul class="menu"> 
-                <li><a href="index.html">Inicio</a></li>
                 <li><a href="nosotros.html">Nosotros</a></li>
                 <li><a href="servicios.html">Servicios</a></li>
                 <li><a href="productos.html">Productos</a></li>
@@ -73,27 +74,27 @@
   <!-- Servicios -->
     <section class="servicios">
         <div class="contenedor1">
-            <h2>Nuestros servicios</h2>
-            <div class="contenedor-servicios">
-                <div class="servicio">
+            <h2 class="titulo">Nuestros servicios</h2>
+            <div class="contenedor-servicios" >
+                <div class="servicio" data-aos="zoom-in-right">
                     <i class="fas fa-x-ray"></i>
                     <h3> RADOSYS EDUCACIÓN Y CAPACITACIÓN</h3>
                     <p>Brindamos cursos de capacitación en Protección Radiológica en Radiología Dental, Diagnóstico Médico y No Médico. El certificado emitido es válido para trámite de la licencia individual de operador. No hay de qué preocuparse, porque también está incluido las gestiones ante OTAN-IPEN.</p>
                     <a href="#">Ver..</a>
                 </div>
-                <div class="servicio">
+                <div class="servicio" data-aos="zoom-in-right">
                     <i class="fas fa-pen-fancy"></i>
                     <h3>RADOSYS ASESORÍA CLÍNICA </h3>
                     <p>Asesoramos en el diseño y construcción óptima de la instalación y en la adquisición correcta del equipo radiográfica adaptada a sus necesidades. Válido para trámites de Licencia de Operación y Registro de Instalación. Diseñamos el Programa de Protección Radiológica en Diagnóstico Médico con Rayos X solicitada por OTAN-IPEN.</p>
                     <a href="#">Ver..</a>
                 </div>
-                <div class="servicio">
+                <div class="servicio" data-aos="zoom-in-right">
                     <i class="fas fa-pen-fancy"></i>
                     <h3>RADOSYS  CONTROL  DE  CALIDAD,  RADIOMETRÍA  E  INGENIERÍA  DE  BLINDAJES</h3>
                     <p>Brindamos servicios tales como: control de calidad en equipos de rayos X (radiología, mamografía convencional y digital, fluoroscopía, intervencionismo, tomografía, densitómetría ósea y radiología dental) , levantamiento radiométrico y memoria del cálculo de blindaje en las instalaciones médicas requeridas en consorcio con la empresa QC DOSE SAC acreditada por la OTAN/IPEN.</p>
                     <a href="#">Ver..</a>
                 </div>
-                <div class="servicio">
+                <div class="servicio" data-aos="zoom-in-right">
                     <i class="fas fa-pen-fancy"></i>
                     <h3>RADOSYS  VENTAS </h3>
                     <p>Ofrecemos calidad en equipamiento médico de rayos X, elementos de protección radiológica para el operador (mandiles, collarines, protector gonadal, guantes y lentes emplomados), caja reveladora, películas radiográficas, láminas, vidrio y biombo emplomados e insumos químicos. </p>
@@ -108,19 +109,19 @@
     <section class="productos">
         <div class="contenedor1 conten-results">
             <section class="productos-derecha">
-                <div class="producto"> 
+                <div class="producto" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"> 
                     <h4>Producto 1</h4>
                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis!</p>
                 </div>
-                <div class="producto"> 
+                <div class="producto" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"> 
                     <h4>Producto 2</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis!</p>
                 </div>
-                <div class="producto"> 
+                <div class="producto" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"> 
                     <h4>Producto 3</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis!</p>
                 </div>
-                <div class="producto"> 
+                <div class="producto" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"> 
                     <h4>Producto 4</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis!</p>
                  </div>
@@ -135,8 +136,8 @@
     </section>
  <!-- Marcas socias -->
     <section class="contenedor1 marcas_socias">
-        <h1>Marcas respaldadas</h1>
-        <div class="imagenes_marcas" >
+        <h2 class="titulo">Marcas respaldadas</h2>
+        <div class="imagenes_marcas" data-aos="flip-down" data-aos-duration="3000">
                     <img src="img/ipen.png" alt="">
                     <img src="img/OSCE.png" alt="">
                     <img src="img/SUNARP.png" alt="">
@@ -208,7 +209,9 @@
     </div>
  
 </footer>
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
